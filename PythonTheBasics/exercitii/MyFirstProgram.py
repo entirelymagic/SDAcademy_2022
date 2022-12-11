@@ -1,0 +1,1 @@
+print("Salut grupa PythonRemoteRo41!")

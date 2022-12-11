@@ -1,0 +1,1429 @@
+{
+  "environment" : "unittest",
+  "summary" : "Exercises Python from scratch",
+  "title" : "SDA Python EN v2.2",
+  "authors" : [
+    "SDA"
+  ],
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [
+    {
+      "title" : "Python fundamentals",
+      "items" : [
+        {
+          "title" : "Introduction",
+          "task_list" : [
+            {
+              "name" : "Hello world",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "print(\"Run me!\")\n"
+                }
+              },
+              "description_text" : "## Introduction to IntelliJ EduTools\n\nIntelliJ EduTools is a great tool that is ideal for learning programming in ** Python ** in the form of a homework.\n\nThe repository you have downloaded refers to a specific module in the course you are a student of. It is worth noting that this repository has been divided into lessons. Each lesson has one or several tasks.\n\nTasks can be divided into several categories:\n* ** Theoretical ** - present and discuss theoretical issues. In this type of tasks you do not write code but learn or repeat various theoretical issues. It may happen that you will be presented with a finished program. To see its effects, click the `Run` button.\n\n* ** Verification ** - verify your theoretical knowledge by using simple tests.\n\n* ** Practical ** - they require a solution to the task presented. They can provide some finished code and require the user to complete the program to achieve the expected results. You might be expected to write the entire program from scratch. Your solutions are always verified for correctness and the task is passed only if the program behaves as it was presented in the requirements of the task. You can also preview the solution. Try to solve the problems by yourself and do not use this option.\n\n\nTo check if the solution of the task or answer in the test is correct, click on the `Check` button. If all goes well, you can go to the next task by clicking on the `Next` button.\n\n---\n\nGo to the sample task by clicking the `Next` button below.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "theory"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "Hello world",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "Aloha!",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "Hallo Welt!",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "Dzień dobry",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "First quiz",
+              "files" : {
+                "__init__.py" : {
+                  "name" : "__init__.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : ""
+                },
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : ""
+                }
+              },
+              "description_text" : "The first program every programmer writes is called:\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "name" : "First task",
+              "files" : {
+                "__init__.py" : {
+                  "name" : "__init__.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : ""
+                },
+                "tests/output.txt" : {
+                  "name" : "tests/output.txt",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "Hello world\n"
+                },
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "print(\"Hello world\")",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                }
+              },
+              "description_text" : "## Hello World\n\nAll outstanding programmers began their programming adventure by writing the program \"Hello world\".\n\nThe goal of the program is to display the text `Hello world` and then finish. It is the simplest possible program that can be written in any programming language.\n\nIn Python, the `print()` command is used to display the text on the screen. Enter the text to be displayed on the screen in brackets.\n\nThe text in Python should always be given in quotation marks (`\"\"`), e.g. `\"Some text\"` or `\"Anything\"`.\n\nSaving the following program:\n\n```python\nprint(\"Some text\")\n```\n\nand running with the `Run` command (green triangle in the upper right corner) will display the following result:\n\n```text\nSome text\n```\n\n---\n\nArmed with this knowledge, write your first program that will print the text `\"Hello world\"` on the screen. Run it to check if it works properly. When you are sure it is ok, press the `Check` button below.\n\nIf the program works correctly, press the `Next` button to go to the appropriate section for the given course module.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "output"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Quiz",
+          "task_list" : [
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "print(\"Hello World\")",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "System.out.println(\"Hello World\")",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "Console.WriteLine(\"Hello World\")",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "echo(\"Hello World\")",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question01",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "How to write \"Hello World\" in Python in a console?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "// comment",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "/* comment",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "# comment",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "!-- comment",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question02",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "How to put a comment in your code in Python?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "myString",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "string",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "Txt",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "str",
+                  "status" : "CORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question03",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which data type is used to store text in Python?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "x = 5;",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "float x = 5;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "int x = 5;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "num x = 5;",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question04",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "How do you create an integer variable of value 5 in Python?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "byte x = 2.8f;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "float x = 2.8f;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "int x = 2.8f;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "x = 2.8",
+                  "status" : "CORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question05",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "How do you create a 2.8 floating point variable in Python?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "getLenght()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "len()",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "getSize()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "legnth()",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question06",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which method is used to check the length of text in the class `str`?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "true",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "false",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question07",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "A single and double quotation marks can be used for text variable.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "upperCase()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "toUpperLetters()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "upperLetters()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "upper()",
+                  "status" : "CORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question08",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which method is used to convert uppercase letters to text?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "arr = 1, 2, 3",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "arr[] = 1, 2, 3",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "arr = []",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "arr = []{}",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question09",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "To declare an array in Python, write:\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "get",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "break",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "void",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "return",
+                  "status" : "CORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question10",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which reserved word is used to return a value?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "String message = ‘Incorrect value’;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "cena = 103,12;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "milion = 1_000_000;",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "out_a == “x”;",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "char desc = ‘A camera’;",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question11",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which of the following variables is initialized correctly?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "stop",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "return",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "break",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "exit",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question12",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__ == \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which reserved word is used solely to break the loop?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "my_var",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "my-var",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "_myvar",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "Myvar",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question13",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which variable name is not correct?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "x = \"Hello\".sub(0, 1)",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "x = \"Hello\"[0]",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "x = sub(\"Hello\", 0, 1)",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question14",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "How do you return the first letter of a text?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "trim()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "strip()",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "ptrim()",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "len()",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question15",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which method is used to remove whitespace at the beginning and end of a text?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "{\"name\": \"apple\", \"color\": \"green\"}",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "(\"apple\", \"banana\", \"cherry\")",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "{\"apple\", \"banana\", \"cherry\"}",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "[\"apple\", \"banana\", \"cherry\"]",
+                  "status" : "CORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question16",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which collection is the list?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "{\"name\": \"apple\", \"color\": \"green\"}",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "(\"apple\", \"banana\", \"cherry\")",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "{\"apple\", \"banana\", \"cherry\"}",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "[\"apple\", \"banana\", \"cherry\"]",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question17",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which collection is the tuple collection?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "{\"name\": \"apple\", \"color\": \"green\"}",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "(\"apple\", \"banana\", \"cherry\")",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "{\"apple\", \"banana\", \"cherry\"}",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "[\"apple\", \"banana\", \"cherry\"]",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question18",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which collection is the set collection?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "{\"name\": \"apple\", \"color\": \"green\"}",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "(\"apple\", \"banana\", \"cherry\")",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "{\"apple\", \"banana\", \"cherry\"}",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "[\"apple\", \"banana\", \"cherry\"]",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question19",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which collection is a dictionary collection?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "List",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "Dictionary",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "Tuple",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "Set",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question20",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "Which collection is sorted, editable and allows duplicate values?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            },
+            {
+              "choiceOptions" : [
+                {
+                  "text" : "print(typeOf(x))",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "print(typeof(x))",
+                  "status" : "INCORRECT"
+                },
+                {
+                  "text" : "print(type(x))",
+                  "status" : "CORRECT"
+                },
+                {
+                  "text" : "print(typeof x)",
+                  "status" : "INCORRECT"
+                }
+              ],
+              "isMultipleChoice" : false,
+              "name" : "question21",
+              "files" : {
+                "main.py" : {
+                  "name" : "main.py",
+                  "placeholders" : [ ],
+                  "is_visible" : true,
+                  "text" : "if __name__== \"__main__\":\n    pass\n"
+                }
+              },
+              "description_text" : "How do you check the type of a variable?\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "choice"
+            }
+          ],
+          "type" : "lesson"
+        },
+        {
+          "title" : "Tasks",
+          "task_list" : [
+            {
+              "name" : "task01",
+              "files" : {
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['185', '70.0'])\n        self.assertEqual('Fasten seat belts!\\n', out, msg=\"A person who is 185cm tall and weighs 70kg can ride.\")\n\n    def test_2(self):\n        out = run(['150', '70.1'])\n        self.assertEqual('Fasten seat belts!\\n', out,\n                         msg=\"A person who is 150cm tall and weighs 70,1kg can ride.\")\n\n    def test_3(self):\n        out = run(['185', '180'])\n        self.assertEqual('Fasten seat belts!\\n', out,\n                         msg=\"A person who is 185cm tall and weighs 180kg can ride.\")\n\n    def test_4(self):\n        out = run(['185', '181'])\n        self.assertEqual('I\\'m sorry you can\\'t ride!\\n', out,\n                         msg=\"A person who is 185cm tall and weighs 181kg can't ride.\")\n\n    def test_5(self):\n        out = run(['149', '70.1'])\n        self.assertEqual('I\\'m sorry you can\\'t ride!\\n', out,\n                         msg=\"A person who is 149cm tall and weighs 70,1kg can't ride.\")\n"
+                },
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "height = int(input())\nweight = float(input())\n\nif height < 150 or weight > 180.0:\n    print(\"I'm sorry you can't ride!\")\nelse:\n    print(\"Fasten your seat belts!\")\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                }
+              },
+              "description_text" : "Write a program that, based on the variables: height - `height (int)` and weight - `weight (float)`, checks whether a person can ride a roller coaster.\n\nIf the person is **at least** 150cm tall and does **not exceed** 180kg, the program will write in the console 'Fasten your seat belts!', Otherwise it will write in the console 'I'm sorry you can't ride!'.\n\nGet the data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task02",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "temp_in_celsius = float(input())\n\nprint(1.8 * temp_in_celsius + 32.0)",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['32'])\n        self.assertEqual(89.6, round(float(out), 2),\n                         msg=\"32 degrees Celsius is 89.6 degrees Fahrenheit.\")\n\n    def test_2(self):\n        out = run(['62'])\n        self.assertEqual(143.6, round(float(out), 2),\n                         msg=\"62 degrees Celsius is 143.7 degrees Fahrenheit.\")\n\n    def test_3(self):\n        out = run(['-22'])\n        self.assertEqual(-7.6, round(float(out), 2),\n                         msg=\"-22 degrees Celsius is -7.6 degrees Fahrenheit.\")\n\n    def test_4(self):\n        out = run(['0'])\n        self.assertEqual(32.0, round(float(out), 2),\n                         msg=\"0 degrees Celsius is 32 degrees Fahrenheit.\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that based on the variable temperature in degrees Celsius - `temp_in_Celsius (float)`, will calculate the temperature in degrees Farhenheit (degrees Fahrenheit = 1.8 * degrees Celsius + 32.0) and write it in the console.\n\nGet the temperature from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task03",
+              "files" : {
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['5400'])\n        self.assertEqual(415.98, round(float(out), 2),\n                         msg=\"The tax from PLN 5,400 is PLN 415.98.\")\n\n    def test_2(self):\n        out = run(['543200.54'])\n        self.assertEqual(161294.23, round(float(out), 2),\n                         msg=\"The tax from 543,200.54 PLN is 161,294.23 PLN.\")\n\n    def test_3(self):\n        out = run(['0'])\n        self.assertEqual(0.0, round(float(out), 2),\n                         msg=\"The tax from 0.00 PLN is 0.00 PLN.\")\n\n    def test_4(self):\n        out = run(['320.0'])\n        self.assertEqual(0.0, round(float(out), 2),\n                         msg=\"The tax from PLN 320.00 is PLN 0.00.\")\n\n"
+                },
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "income = float(input())\n\nif income <= 85528.0:\n    calculated_tax = income * 0.18 - 556.02\n\n    if calculated_tax < 0:\n        calculated_tax = 0\n\n    print(calculated_tax)\nelse:\n    print(14839.02 + 0.32 * (income - 85528.0))",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                }
+              },
+              "description_text" : "Write a program which, based on the variable `income` of the `float` type, calculates the amount of personal income tax due and writes it to the console.\n\nThe tax is calculated according to the following rules:\n* up to €85,528.00 tax is 18% of the base minus €556.02,\n* from €85,528.00 tax is €14,839.02 + 32% of the surplus over €85,528.00,\n* tax cannot be negative.\n\nReceive the revenue from the user in the console by using the argument-less `input()` and store it in the `income` variable.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task04",
+              "files" : {
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['10', '10'])\n        self.assertEqual(512.50, round(float(out), 2),\n                         msg=\"The installment on 10.00 for 10 months is 512.50 because the amount has been increased to 5,000.00.\")\n\n    def test_2(self):\n        out = run(['100000', '10'])\n        self.assertEqual(512.50, round(float(out), 2),\n                         msg=\"The installment on 10,000.00 for 10 months is 512.50 because the amount has been reduced to 5,000.00.\")\n\n    def test_3(self):\n        out = run(['1000', '50'])\n        self.assertEqual(30.56, round(float(out), 2),\n                         msg=\"The installment on 1,000.00 for 50 months is 30.56 because the number of installments has been reduced to 36.\")\n\n    def test_4(self):\n        out = run(['1000', '2'])\n        self.assertEqual(30.56, round(float(out), 2),\n                         msg=\"The installment on 1,000.00 for 2 months is 30.56 because the number of installments has been increased to 36.\")\n\n    def test_5(self):\n        out = run(['7500.50', '36'])\n        self.assertEqual(229.18, round(float(out), 2),\n                         msg=\"The installment on 7,500.50 for 36 months is 229.18.\")\n\n"
+                },
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "amount = float(input())\nnumber_of_installments = int(input())\n\nif amount < 100.0 or amount > 10000.0:\n    amount = 5000\n\nif number_of_installments < 6 or number_of_installments > 48:\n    number_of_installments = 36\n\nif number_of_installments <= 12:\n    loan_interest = 0.025\nelif number_of_installments <= 24:\n    loan_interest = 0.05\nelse:\n    loan_interest = 0.1\n\nprint(amount * (1.0 + loan_interest) / number_of_installments)",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                }
+              },
+              "description_text" : "Write a program which, based on the variables: amount - `amount (float)` and number of installments - `number_of_installments (int)`, will calculate the monthly loan installment and write it to the console. The parameters have restrictions:\n* the loan amount must be between PLN 100.00 and PLN 10,000.00,\n* the number of installments must be between 6 and 48.\n\nIf the loan amount exceeds the acceptable range, the loan amount should be set at PLN 5,000.00. If the number of installments exceeds the acceptable range, the number of installments should be set to 36.\n\nThe calculated monthly installment should also include interest. To simplify the calculations, assume that you add X percent to the loan amount depending on the number of installments:\n* 6-12 installments - 2.5%,\n* 13-24 installments - 5.0%,\n* 25-48 installments - 10.0%,\n\nand then calculate the installment amount based on the number of installments.\n\nGet data from the user in the console using argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task05",
+              "files" : {
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['15'])\n        self.assertEqual(\"1\\n3\\n5\\n7\\n9\\n11\\n13\\n15\\n\", out,\n                         msg=\"For the number 15, the program should write the numbers 1, 3, 5, 7, 9, 11, 13, 15 in the console.\")\n\n    def test_2(self):\n        out = run(['1'])\n        self.assertEqual(\"1\\n\", out,\n                         msg=\"For the number 1, the program should write the number 1 in the console.\")\n\n    def test_3(self):\n        out = run(['0'])\n        self.assertEqual(\"\", out,\n                         msg=\"For the number 0, the program should not write anything to the console.\")\n\n"
+                },
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "number = int(input())\n\nfor i in range(1, number + 1, 2):\n    print(i)",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                }
+              },
+              "description_text" : "Write a program that takes a positive integer from the user - `number (int)`, and then prints all positive odd numbers that are not greater than the given number in the console in order.\n\nFor example, for the number 15, the program should write the numbers in the console: 1, 3, 5, 7, 9, 11, 13, 15.\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task06",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "a = int(input())\nb = int(input())\n\nif b <= a:\n    print(\"Job finished\")\nelse:\n    sum = 0\n    for i in range(a, b + 1):\n        sum += i\n    print(sum)",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['4', '11'])\n        self.assertEqual(60, round(float(out), 2),\n                         msg=\"For numbers a = 4 and b = 11, the program should write the number 60 in the console.\")\n\n    def test_2(self):\n        out = run(['9', '64'])\n        self.assertEqual(2044, round(float(out), 2),\n                         msg=\"For numbers a = 9 and b = 64, the program should write 2044 in the console.\")\n\n    def test_3(self):\n        out = run(['2', '1'])\n        self.assertEqual(\"Job finished\\n\", out,\n                         msg=\"For numbers a = 2 and b = 1, the program should write 'Job finished' in the console.\")\n\n    def test_4(self):\n        out = run(['2', '2'])\n        self.assertEqual(\"Job finished\\n\", out,\n                         msg=\"For numbers a = 2 and b = 2, the program should write the message 'Job finished' in the console.\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that takes from the user two integers A - `a (int)` and B - `b (int)`, where `A < B`, and then calculates the sum of the sequence of numbers from A to B (A, A + 1, A + 2, ..., B) and prints it in the console. When the `A < B` condition is not met, the program exits by writing `Job finished` in the console.\n\nFor example, for A = 4 and B = 11, the program should write the number `60` in the console.\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task07",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "n = int(input())\n\ncurrent_power_of_two = 1\n\nwhile True:\n    print(current_power_of_two)\n    current_power_of_two *= 2\n\n    if current_power_of_two >= n:\n        break\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['71'])\n        self.assertEqual(\"1\\n2\\n4\\n8\\n16\\n32\\n64\\n\", out,\n                         msg=\"For the number n = 71, the program should write in the console the numbers: 1, 2, 4, 8, 16, 32, 64.\")\n\n    def test_2(self):\n        out = run(['1'])\n        self.assertEqual(\"1\\n\", out,\n                         msg=\"For the number n = 1, the program should write the number 1 in the console.\")\n\n    def test_3(self):\n        out = run(['423'])\n        self.assertEqual(\"1\\n2\\n4\\n8\\n16\\n32\\n64\\n128\\n256\\n\", out,\n                         msg=\"For the number n = 423, the program should write the numbers: 1, 2, 4, 8, 16, 32, 64, 128, 256 in the console.\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that takes a positive integer N - `n (int)` from the user, and then displays all powers of the number 2 in the console that are not greater than the number given.\n\nFor example, for the number 71 the program should write in the console the numbers: 1 2 4 8 16 32 64.\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task08",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "sum = 0\n\nwhile True:\n    number = int(input())\n    sum += number\n\n    if number == 0:\n        break\n\nprint(sum)\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['3', '2', '5', '1', '0'])\n        self.assertEqual(11, int(out),\n                         msg=\"For a series of numbers: 3, 2, 5, 1, 0, the program should write to the console the number: 11.\")\n\n    def test_2(self):\n        out = run(['33', '21', '54', '-74', '0'])\n        self.assertEqual(34, int(out),\n                         msg=\"For the sequence of numbers: 33, 21, 54, -74, 0, the program should write in the console the number: 34.\")\n\n    def test_3(self):\n        out = run(['-33', '-1', '54', '-94', '0'])\n        self.assertEqual(-74, int(out),\n                         msg=\"For the sequence of numbers: -33, -1, 54, -94, 0, the program should write to the console the number: -74.\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that takes numbers from the user as long as the number 0 is not given. When the number 0 is given, the program calculates the sum of the numbers provided and prints it in the console.\n\nFor example, for a series of given numbers: 3, 2, 5, 1, 0, the program should write the number 11 in the console.\n \nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task09",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "import sys\n\nmin = sys.maxsize * 2 + 1\nmax = -sys.maxsize - 1\n\nwhile True:\n    number = int(input())\n\n    if number > max:\n        max = number\n\n    if number < min:\n        min = number\n\n    if number == 0:\n        break\n\nprint(max + min)\nprint((max + min) / 2)\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['1', '-4', '2', '17', '0'])\n        self.assertEqual(\"13\\n6.5\\n\", out,\n                         msg=\"For the sequence of numbers: 1, -4, 2, 17, 0, the program should write in the console the numbers: 13, 6.5.\")\n\n    def test_2(self):\n        out = run(['11', '-44', '52', '327', '0'])\n        self.assertEqual(\"283\\n141.5\\n\", out,\n                         msg=\"For the sequence of numbers: 11, -44, 52, 327, 0, the program should write in the console the numbers: 283, 141.5.\")\n\n    def test_3(self):\n        out = run(['12', '24', '-24', '0'])\n        self.assertEqual(\"0\\n0.0\\n\", out,\n                         msg=\"For the sequence of numbers: 12, 24, -24, 0, the program should write in the console the numbers: 0, 0.0\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that retrieves an integer string from the user. Downloading data ends with the number 0 (not included in the data). Then, the program calculates the sum of the largest and smallest of the given numbers and their arithmetic average and prints them in the console.\n\nFor example, for a series of given numbers: 1, -4, 2, 17, 0, the program should write in the console the numbers: 13, 6.5.\n \nGet data from the user in the console byusing the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task10",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "number = int(input())\n\nfor i in range(1, number + 1):\n    if number % i == 0:\n        print(i)\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['21'])\n        self.assertEqual(\"1\\n3\\n7\\n21\\n\", out,\n                         msg=\"For the number 21, the program should write in the console the numbers: 1, 3, 7, 21.\")\n\n    def test_2(self):\n        out = run(['49'])\n        self.assertEqual(\"1\\n7\\n49\\n\", out,\n                         msg=\"For the number 49, the program should write in the console the numbers: 1, 7, 49.\")\n\n    def test_3(self):\n        out = run(['1024'])\n        self.assertEqual(\"1\\n2\\n4\\n8\\n16\\n32\\n64\\n128\\n256\\n512\\n1024\\n\", out,\n                         msg=\"For the number 1024, the program should write to the console the numbers: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that takes an integer from the user and prints all its divisors in the console.\n\nFor example, for the number 21, the program should write in the console the numbers: 1, 3, 7, 21\n \nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task11",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "number = int(input())\n\nif number <= 1:\n    print(\"I am interrupting work\")\n    exit()\n\nis_prime_number = True\n\nfor i in range(2, number):\n    if number % i == 0:\n        is_prime_number = False\n        break\n\nif is_prime_number:\n    print(\"Yes\")\nelse:\n    print(\"No\")\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['23'])\n        self.assertEqual(\"Yes\\n\", out,\n                         msg=\"For the number 23, the program should write to the console the message: 'Yes'.\")\n\n    def test_2(self):\n        out = run(['2'])\n        self.assertEqual(\"Yes\\n\", out,\n                         msg=\"For the number 2, the program should write to the console the message: 'Yes'.\")\n\n    def test_3(self):\n        out = run(['4'])\n        self.assertEqual(\"No\\n\", out,\n                         msg=\"For the number 4, the program should write to the console the message: 'No'.\")\n\n    def test_4(self):\n        out = run(['2000'])\n        self.assertEqual(\"No\\n\", out,\n                         msg=\"For the number 2000, the program should write to the console the message 'No'.\")\n\n    def test_5(self):\n        out = run(['1'])\n        self.assertEqual(\"I am interrupting work\\n\", out,\n                         msg=\"For the number 1, the program should write to the console the message: 'I am interrupting work'.\")\n\n"
+                }
+              },
+              "description_text" : "Write a program that takes an integer greater than 1 from the user and checks if the number is a prime number. In the case when this number is a prime number, the program will write a message '' Yes '' in the console, otherwise it will write a message '' No ''.\n\nIf the user specifies a number less than or equal to 1, the program will write to the console the message: \"I am interrupting work\".\n \nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task12",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 26,
+                      "length" : 30,
+                      "possible_answer" : "occurrences = [0] * 10\n\n    for i in range(len(numbers)):\n        occurrences[numbers[i] - 1] += 1\n\n    for i in range(len(occurrences)):\n        print(\"{} - {}\".format(i + 1, occurrences[i]))",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "def program(numbers):\n    # Implement your solution here\n\n# Do not change code below this line\ndata = list()\namount = int(input())\nfor i in range(amount):\n    data.append(int(input()))\n\nprogram(data)\n"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        arr = [\"6\", \"5\", \"4\", \"5\", \"10\", \"5\", \"8\", \"3\", \"10\", \"6\", \"6\", \"6\", \"4\", \"3\", \"2\", \"8\", \"1\", \"3\", \"4\", \"7\"]\n        out = run([str(len(arr))] + arr)\n        expected = \"1 - 1\\n2 - 1\\n3 - 3\\n4 - 3\\n5 - 3\\n6 - 4\\n7 - 1\\n8 - 2\\n9 - 0\\n10 - 2\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For the array {}, the program should write to the console: \\n{}\".format(arr, expected))\n\n    def test_2(self):\n        arr = [\"6\"]\n        out = run([str(len(arr))] + arr)\n        expected = \"1 - 0\\n2 - 0\\n3 - 0\\n4 - 0\\n5 - 0\\n6 - 1\\n7 - 0\\n8 - 0\\n9 - 0\\n10 - 0\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For the array {}, the program should write to the console: \\n{}\".format(arr, expected))\n\n    def test_3(self):\n        arr = [\"6\", \"9\", \"2\", \"3\", \"2\", \"9\", \"10\"]\n        out = run([str(len(arr))] + arr)\n        expected = \"1 - 0\\n2 - 2\\n3 - 1\\n4 - 0\\n5 - 0\\n6 - 1\\n7 - 0\\n8 - 0\\n9 - 2\\n10 - 1\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For the array {}, the program should write to the console: \\n{}\".format(arr, expected))\n\n"
+                }
+              },
+              "description_text" : "Write a program that counts how many times each of the numbers has appeared in the prepared table and prints a summary in the console. An array can contain ** only ** numbers from 1 to 10.\n\nFor example, for the table `[6 5 4 5 10 5 8 3 10 6 6 6 4 3 2 8 1 3 4 7] ', the program should write in the console the number of occurrences of each number:\n\n* 1 - 1\n* 2 - 1\n* 3 - 3\n* 4 - 3\n* 5 - 3\n* 6 - 4\n* 7 - 1\n* 8 - 2\n* 9 - 0\n* 10 - 2\n\nAn array containing numbers is prepared as the variable `numbers`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task13",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "text = input()\n\nif \"Python\" in text:\n    print(\"I found Python\")\n\nif text.startswith(\"Python\"):\n    print(\"Starts with Python\")\n\nif text.endswith(\"Python\"):\n    print(\"Ends with Python\")\n\nif text == \"Python\":\n    print(\"Equals Python\")\n\nprint(text.index(\"Python\"))",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['Python'])\n        expected = \"I found Python\\nStarts with Python\\nEnds with Python\\nEquals Python\\n0\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"Given text \\\"Python\\\", program should write in console: \\n{}\".format(expected))\n\n    def test_2(self):\n        out = run(['SDA Python course is the best way to learn programming language called Python'])\n        expected = \"I found Python\\nEnds with Python\\n4\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"Given text \\\"SDA Python course is the best way to learn programming language called Python\\\", program should write in console: \\n{}\".format(expected))\n\n    def test_3(self):\n        out = run(['Only Python!'])\n        expected = \"I found Python\\n5\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"Given text \\\"Olny Python!\\\", program should write in console: \\n{}\".format(expected))\n"
+                }
+              },
+              "description_text" : "Write a program that reads the text entered by the user, and then:\n\n1. checks if the word \"Python\" appears in the text - if so, it prints the message \"I found Python\" in the console,\n2. The program checks if the text starts with the word \"Python\" - if so, it prints the message \"Starts with Python\" in the console,\n3. Check if the text ends with the word \"Python\" - if so, it prints the message \"Ends with Python\" in the console,\n4. Check if the text equals the word \"Python\" - if so, print the message \"Equals Python\" in the console,\n5. Print the index of the first occurrence of the word \"Python\" in the text in the console.\n\nFor example, for the text \"Python\", the program should write in the console:\n\n* I found Python\n* Starts with Python\n* Ends with Python\n* Equals Python\n* 0\n\nand for the text 'Python course from scratch is the best way to learn Python', the program should write in the console:\n\n* I found Python\n* Ends with Python\n* 54\n\n\nDownload data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task14",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "text = input()\n\nprint(text.replace(\",\", \"-MAKARENA\"))",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'])\n        expected = \"Lorem ipsum dolor sit amet-MAKARENA consectetur adipiscing elit-MAKARENA sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua., program should print: \\n{}\".format(expected))\n\n    def test_2(self):\n        out = run(['A simple, text, really, so, simple!'])\n        expected = \"A simple-MAKARENA text-MAKARENA really-MAKARENA so-MAKARENA simple!\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text A simple, text, really, so, simple!, program should print: \\n{}\".format(expected))\n"
+                }
+              },
+              "description_text" : "Write a program that reads the text entered by the user, and then for that text converts all comma occurrences to the text \"-MAKARENA\" and displays it in the console.\n\nFor example, for the text `` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '', The program should write in the console `` Lorem ipsum dolor sit amet-MAKARENA consectetur adipiscing elit-MAKARENA sed to eiusmod tempor incididunt ut labore et dolore magna aliqua. \"\n\nGet the data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task15",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "import re\n\ntext = input()\n\npattern = re.compile(r\"[^a-zA-Z ]\")\nwords = pattern.sub(\"\", text).lower().split()\nword_occurrences = dict()\n\nfor word in words:\n    count = word_occurrences.get(word)\n\n    if count is not None:\n        count += 1\n    else:\n        count = 1\n\n    word_occurrences.update({word: count})\n\nfor key in sorted(word_occurrences):\n    print(\"{} - {}\".format(key, word_occurrences.get(key)))",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['Alice likes cats but cats do not like alice.'])\n        expected = \"alice - 2\\nbut - 1\\ncats - 2\\ndo - 1\\nlike - 1\\nlikes - 1\\nnot - 1\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"Alice likes cats but cats don't like alice.\\\", program should print: \\n{}\".format(expected))\n\n    def test_2(self):\n        out = run(['Alice! likes? cats, but cats do. not like alice.'])\n        expected = \"alice - 2\\nbut - 1\\ncats - 2\\ndo - 1\\nlike - 1\\nlikes - 1\\nnot - 1\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"Alice! likes? cats, but cats do. not like alice.\\\", program should print: \\n{}\".format(expected))\n\n    def test_3(self):\n        out = run(['World. Hello, World!'])\n        expected = \"hello - 1\\nworld - 2\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"World. Hello, World!\\\", program should print: \\n{}\".format(expected))\n"
+                }
+              },
+              "description_text" : "Write a program that reads the text entered by the user and then divides it into individual words. Then counts the number of occurrences of words regardless of their case and writes them to the console in alphabetical order.\n\nFor example, for the text 'Ala likes cats, but she is not liked by Cats.' ', The program should write in the console:\n\n* ala - 1\n* but - 1\n* is - 1\n* cats - 2\n* likes - 1\n* liked - 1\n* no - 1\n* through - 1\n\nAssume that any punctuation marks may appear in the text.\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task16",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "text = input()\n\nprint(text[::-1])",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here\n"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['Cat'])\n        expected = \"taC\\n\"\n        self.assertEqual(expected, out, msg=\"For text \\\"Cat\\\", program should print: \\n{}\".format(expected))\n\n    def test_2(self):\n        out = run(['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'])\n        expected = \".auqila angam erolod te erobal tu tnudidicni ropmet domsuie od des ,tile gnicsipida rutetcesnoc ,tema tis rolod muspi meroL\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\\\", program should print: \\n{}\".format(expected))\n"
+                }
+              },
+              "description_text" : "Write a program that receives text from the user and then creates a string that is the inverted text and displays it in the console.\n\nFor example, for the text `Cat`, the program should write the text `taC` in the console.\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task17",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 30,
+                      "possible_answer" : "text = input()\nparentheses_open = 0\n\nfor c in text:\n    if c == \"(\":\n        parentheses_open += 1\n    if c == \")\":\n        parentheses_open -= 1\n\n    if parentheses_open < 0:\n        break\n\nif parentheses_open != 0:\n    print(\"Incorrect pairing of brackets\")\nelse:\n    print(\"OK\")\n",
+                      "placeholder_text" : "# Implement your solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "# Implement your solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['2 * (3.4 - (-7)/2)*(a-2)/(b-1)))'])\n        expected = \"Incorrect pairing of brackets\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text 2 * (3.4 - (-7)/2)*(a-2)/(b-1))), program should print: \\n{}\".format(expected))\n\n    def test_2(self):\n        out = run(['(2 * (3.4 - (-7)/2)*(a-2)/(b-1))'])\n        expected = \"OK\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text (2 * (3.4 - (-7)/2)*(a-2)/(b-1)), program should print: \\n{}\".format(expected))\n\n    def test_3(self):\n        out = run([') 2 * 4 ('])\n        expected = \"Incorrect pairing of brackets\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text ) 2 * 4 (, program should print: \\n{}\".format(expected))\n\n    def test_4(self):\n        out = run(['((2 * 4)'])\n        expected = \"Incorrect pairing of brackets\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text ((2 * 4), program should print: \\n{}\".format(expected))\n\n"
+                }
+              },
+              "description_text" : "Write a program that checks if the brackets are correctly matched in the user-specified arithmetic expression. The expression is given as a single string.\n\nIf the brackets are correctly paired, the program should write to the console the message: \"OK\". Otherwise, the program should write the message: \"Incorrect pairing of brackets\".\n\n* Example a: `2 * (3.4 - (-7) / 2) * (a-2) / (b-1)))` result: `Incorrect pairing of brackets`\n        \n* Example b: `(2 * (3.4 - (-7) / 2) * (a-2) / (b-1))`, result: `OK`\n\n* Example c: `\") 2 * 4 (\"`, result: `Incorrect pairing of brackets`\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            },
+            {
+              "name" : "task18",
+              "files" : {
+                "task.py" : {
+                  "name" : "task.py",
+                  "placeholders" : [
+                    {
+                      "offset" : 0,
+                      "length" : 23,
+                      "possible_answer" : "text = input()\nn = int(input())\nresult = \"\"\n\nfor i in range(len(text)):\n    char = text[i]\n\n    if char != \" \":\n        result += chr((ord(char) + n - 97) % 26 + 97)\n    else:\n        result += char\n\nprint(result)\n",
+                      "placeholder_text" : "Implement solution here"
+                    }
+                  ],
+                  "is_visible" : true,
+                  "text" : "Implement solution here"
+                },
+                "tests/test_task.py" : {
+                  "name" : "tests/test_task.py",
+                  "placeholders" : [ ],
+                  "is_visible" : false,
+                  "text" : "import unittest\n\n\ndef run(lines):\n    try:\n        import traceback\n    except:\n        return \"can't import traceback\"\n    try:\n        import os\n        import pathlib\n        import subprocess\n        import sys\n        file_dir = pathlib.Path(__file__).absolute().parent\n        cmd = [sys.executable, str(file_dir.parent / 'task.py')]\n        proc = subprocess.Popen(cmd,\n                                stdout=subprocess.PIPE,\n                                stderr=subprocess.PIPE,\n                                stdin=subprocess.PIPE,\n                                encoding='utf-8',   # also for universal newlines\n                                )\n        # we need to use '\\n' even on Windows\n        stdout, stderr = proc.communicate('\\n'.join(lines) + '\\n')\n        # if everything is fine, stderr is empty\n        return stdout + stderr\n    except:\n        return f\"cwd: {os.getcwd()}\\n{traceback.format_exc()}\"\n\n\nclass TestCase(unittest.TestCase):\n    def test_1(self):\n        out = run(['alice has a cat', '1'])\n        expected = \"bmjdf ibt b dbu\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"alice has a cat\\\" and n = 1, program should print: \\n{}\".format(expected))\n\n    def test_2(self):\n        out = run(['alice has a cat', '26'])\n        expected = \"alice has a cat\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"alice has a cat\\\" and n = 26, program should print: \\n{}\".format(expected))\n\n    def test_3(self):\n        out = run(['this is a sentence', '13'])\n        expected = \"guvf vf n fragrapr\\n\"\n        self.assertEqual(expected, out,\n                         msg=\"For text \\\"this is a sentence\\\" and n = 13, program should print: \\n{}\".format(expected))\n"
+                }
+              },
+              "description_text" : "Write a program that encrypts a given string using the Caesar cipher, which is a special case of a mono-alphabetic substitution cipher. The program retrieves the text to be encrypted from the user and the number n by which the alphabet is moved by which the text is encrypted, and then prints the encrypted text in the console. For simplicity, it can be assumed that the input string consists only of lowercase letters of the English alphabet, i.e. 'a' - 'z' and spaces.\n\n* Example a: text: `alice has a cat`, n: `1`, result: `bmjdf ibt b dbu`\n\n* Example b: text: `alice has a cat`, n: `26`, result: `alice has a cat`\n\nGet data from the user in the console by using the argument-less `input()`.\n",
+              "description_format" : "MD",
+              "feedback_link" : {
+                "link_type" : "STEPIK"
+              },
+              "task_type" : "edu"
+            }
+          ],
+          "type" : "lesson"
+        }
+      ],
+      "type" : "section"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "# This is a sample Python script.\r\n\r\n# Press Shift+F10 to execute it or replace it with your code.\r\n# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.\r\n\r\n\r\ndef print_hi(name):\r\n    # Use a breakpoint in the code line below to debug your script.\r\n    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.\r\n\r\n\r\n# Press the green button in the gutter to run the script.\r\nif __name__ == '__main__':\r\n    print_hi('PyCharm')\r\n\r\n# See PyCharm help at https://www.jetbrains.com/help/pycharm/\r\n"
+    }
+  ],
+  "version" : 11
+}
