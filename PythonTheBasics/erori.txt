@@ -1,2 +1,2 @@
-    >>> print ("What", "for", "beautiful", "day", ".") # should be "a" instead of "for"
-    "What a beautiful day."
+>>> print ("What", "for", "beautiful", "day", ".") # should be "a" instead of "for"
+"What a beautiful day."
